@@ -1,0 +1,23 @@
+#The Mean Reversion Strategy (Estratégia de Reversão à Média)
+A Mean Reversion Strategy é uma estratégia de investimento baseada no princípio de que os preços dos ativos tendem a 
+retornar à sua média histórica ao longo do tempo. Essa abordagem assume que, quando o preço de um ativo se desvia significativamente da média, 
+ele eventualmente reverterá para essa média.
+
+#Identificação da Média#
+Utiliza-se uma média móvel (ex: SMA - Simple Moving Average ou EMA - Exponential Moving Average) 
+para calcular o valor médio do preço de um ativo ao longo de um período.
+
+#Gatilhos de Compra e Venda#
+Compra: Quando o preço do ativo está muito abaixo da média (subvalorizado).
+Venda: Quando o preço está muito acima da média (sobrevalorizado).
+
+#Exemplo#
+1) Se uma ação tem um preço médio de R$ 100 nos últimos 50 dias e atualmente está sendo negociada a R$ 80, um trader pode interpretar isso como uma oportunidade de compra, esperando que o preço retorne à média de R$ 100.
+2) Por outro lado, se a ação sobe para R$ 120, um investidor pode decidir vender acreditando que o preço voltará para perto de R$ 100.
+
+Ferramentas Usadas na Estratégia
+📌 Indicadores Técnicos Usados:
+Média Móvel Simples (SMA)
+Média Móvel Exponencial (EMA)
+Bandas de Bollinger
+Índice de Força Relativa (RSI) (para confirmar sinais)
